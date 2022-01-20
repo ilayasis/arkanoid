@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/back"
+    android:padding="30dp" >
+    <TextView
+        android:text="התחברות משתמש אישי"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:fontFamily="@font/abraham_regular"
+        android:textColor="	#4747d1"
+        android:id="@+id/textViewLogIn" />
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/emailLoginText">
+            <EditText
+                android:inputType="textEmailAddress"
+                android:hint="הכנס איימל"
+                android:fontFamily="@font/abraham_regular"
+                android:background="@android:color/white"  
+                android:textSize="28sp"
+                android:gravity="center"
+                android:imeOptions="actionNext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordLoginText">
+            <EditText
+                android:inputType="textPassword"
+                android:hint="הכנס סיסמה"
+                android:fontFamily="@font/abraham_regular"
+                android:background="@android:color/white"  
+                android:textSize="27sp"
+                android:gravity="center"
+                android:layout_marginTop="10dp"
+                android:imeOptions="actionDone"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    
+    <Button
+        android:text="התחבר"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="10dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/buttonLoginEmailPassword" />
+</LinearLayout>
+

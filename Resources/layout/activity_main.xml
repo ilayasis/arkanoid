@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto" 
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@drawable/back"
+    android:layout_height="match_parent">
+    <TextView
+        android:text="ברוכים הבאים לארקאנויד "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:fontFamily="@font/abraham_regular"
+        android:textColor="	#4747d1"
+        android:id="@+id/textViewWellcome" />
+    <Button
+        android:text="התחברות"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/MainButtonLogin"/>
+    <Button
+        android:text="הרשמה"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/MainButtonRegister" />
+    <Button
+        android:text="התוצאות הטובות ביותר"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/MainButtonShowHighScores" />
+    <Button
+        android:text="התחל משחק"
+        android:layout_width="305dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="22sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/MainButtonPlay" />
+     <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="	#4747d1"
+		android:text="הניקוד במשחק"
+        android:fontFamily="@font/abraham_regular"
+		android:textSize="40dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+		android:gravity="center"
+        android:id="@+id/MainTextViewScore" />
+
+</LinearLayout>

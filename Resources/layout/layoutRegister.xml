@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:background="@drawable/back"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+        <TextView
+        android:text="הרשמה "
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:textSize="27sp"
+        android:fontFamily="@font/abraham_regular"
+        android:textColor="	#4747d1"
+        android:id="@+id/textViewRegister" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayoutRegisterName" >
+    <EditText
+        android:hint="שם משתמש" 
+        android:fontFamily="@font/abraham_regular"
+        android:background="@android:color/white"  
+        android:textSize="27sp"
+        android:inputType="text"    
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayoutRegisterEmail" >
+    <EditText
+        android:background="@android:color/white"
+        android:hint="איימל"
+        android:fontFamily="@font/abraham_regular"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:textSize="27sp"
+        android:inputType="text"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayoutRegisterPassword" >
+    <EditText
+         android:background="@android:color/white"
+        android:hint="הכנס סיסמא"  
+        android:fontFamily="@font/abraham_regular"
+        android:gravity="center"
+        android:imeOptions="actionNext"
+        android:textSize="27sp"
+        android:inputType="text"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/textInputLayoutRegisterConfirm" >
+    <EditText
+        android:hint="הכנס שוב סיסמא"  
+        android:imeOptions="actionDone"
+        android:fontFamily="@font/abraham_regular"
+        android:gravity="center"
+        android:background="@android:color/white"
+        android:textSize="27sp"
+        android:inputType="text"    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    </android.support.design.widget.TextInputLayout>
+    <Button
+        android:text="רשום אותי"
+        android:fontFamily="@font/abraham_regular"
+        android:layout_width="365dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:textSize="23sp"
+        android:layout_marginTop="12dp"
+        android:textStyle="bold"
+        android:background="@drawable/buttonshape"
+        android:id="@+id/buttonSubmitRegister"/>
+
+</LinearLayout>

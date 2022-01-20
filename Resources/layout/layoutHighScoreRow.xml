@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:gravity="center_horizontal"
+    android:layoutDirection="ltr"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test1"
+        android:textSize="50dp"
+        android:textColor="@android:color/black"
+        android:layout_marginRight="20dp"
+        android:id="@+id/textViewHighscoreUsername"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="test2"
+        android:textSize="50dp"
+        android:textColor="@android:color/holo_red_dark"
+        android:id="@+id/textViewHighscoreHighscore"/>
+</LinearLayout>
+

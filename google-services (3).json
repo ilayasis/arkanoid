@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "151216769631",
+    "project_id": "arkanoidpong",
+    "storage_bucket": "arkanoidpong.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:151216769631:android:11c4f56622434439c8a9ea",
+        "android_client_info": {
+          "package_name": "com.companyname.arkanoid"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "151216769631-fa21amp1ndillg1ibqetc1ce7eot582t.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBMoBo2IE1DHIZXbZrGKwhsA4wpXfpCo5I"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "151216769631-fa21amp1ndillg1ibqetc1ce7eot582t.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

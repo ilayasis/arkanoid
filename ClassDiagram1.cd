@@ -1,0 +1,132 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Arkanoid.Activities.GameActivity" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="9.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAFAAAAAAAgAAgEAAEAAAAAACAAAAAAAAAAAAIAAAA=</HashCode>
+      <FileName>Activities\GameActivity.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Arkanoid.Activities.HighScoreActivity" Collapsed="true">
+    <Position X="13.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAASAAAAAAAAQAAAAACAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>Activities\HighScoreActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Activities.LoginActivity" Collapsed="true">
+    <Position X="11" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAACAQAgAIAAIAAAACAAAQAAAAAAAAACAQA=</HashCode>
+      <FileName>Activities\LoginActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Activities.RegisterActivity" Collapsed="true">
+    <Position X="12.75" Y="2.5" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEIICAAAQAAAAQAAAAAAAAAAQCAAAQAAAAQAQAAAAQA=</HashCode>
+      <FileName>Activities\RegisterActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Adapters.HighScoresAdapter" Collapsed="true">
+    <Position X="7.25" Y="1.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>AAIGAAAAAAAAAEAACAAAAAQAAAAAAAAAAAABAAAAAAA=</HashCode>
+      <FileName>Adapters\HighScoresAdapter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.BroadcastService.MusicReciver" Collapsed="true">
+    <Position X="7.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAACAAAAAAAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BroadcastService\MusicReciver.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.BroadcastService.MusicService" Collapsed="true">
+    <Position X="9.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>EAABAAAAAAAAAIAAAAAAEAAAAAAAAAAAAAQCAAAAAAA=</HashCode>
+      <FileName>BroadcastService\MusicService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.BroadcastService.MusicServiceBinder" Collapsed="true">
+    <Position X="11" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAECAAAAAAAA=</HashCode>
+      <FileName>BroadcastService\MusicService.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Helpers.AppDataHelper" Collapsed="true">
+    <Position X="7.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAQAAAAABAAABAAABAAAAAAACAAAAAAAAAAIIAAAA=</HashCode>
+      <FileName>Helpers\AppDataHelper.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Listeners.HighscoresEventListener" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="11" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Listeners\HighscoresEventListener.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="Arkanoid.MainActivity">
+    <Position X="2.75" Y="2.75" Width="2.5" />
+    <TypeIdentifier>
+      <HashCode>AEoAABAAAIAAABgAAAkAAIAEgCgAwAgAAQgAgBEAAAA=</HashCode>
+      <FileName>MainActivity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.Ball" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAQCIDCYgAAAAAAAAAAEAAAAAAAAAAAAAgCAAA=</HashCode>
+      <FileName>Model\Ball.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.GameView" Collapsed="true">
+    <Position X="9.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAEAAAIBCAAAAAAAAAEAAAAAAgAAAEAAAAAACBAI=</HashCode>
+      <FileName>Model\GameView.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.Paddle" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAgAIIAAgQAQAAAAAAACAAAAAAAAAABAEAAAAA=</HashCode>
+      <FileName>Model\Paddle.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.Score" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAIAAAgAAAAAABAAAAAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Model\Score.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.Shape" Collapsed="true">
+    <Position X="2.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAAIAAAgAAAAAAAAAAAAAAAQCAAABgAAAAYAA=</HashCode>
+      <FileName>Model\Shape.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.Shapes" Collapsed="true">
+    <Position X="7.25" Y="3.5" Width="1.75" />
+    <TypeIdentifier>
+      <HashCode>ACCAAgABAAAABAAAAAAIABAAAAAAABAAEAAAggAAAAA=</HashCode>
+      <FileName>Model\Shapes.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Arkanoid.Model.User" Collapsed="true">
+    <Position X="9.25" Y="3.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAQCAAAABAAAAgABYIAAAJAAACAAAQAAAAAAA=</HashCode>
+      <FileName>Model\User.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
